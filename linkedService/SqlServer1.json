@@ -1,0 +1,16 @@
+{
+	"name": "SqlServer1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "SqlServer",
+		"typeProperties": {
+			"connectionString": "integrated security=False;data source=DESKTOP-NL9AGJU\\NANDUSQL1;initial catalog=IndianBank;user id=sa",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiI2MzE3OGRhMi1lYWVkLTQ2NWQtYWJlNC1lNDk5M2Y2NjMzY2MiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "loki789",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
